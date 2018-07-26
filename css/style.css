@@ -1,0 +1,28 @@
+
+
+
+body {
+    background-color: lightskyblue;
+}
+ul#navigation{
+    width:100%;
+    text-align: center;
+    border: 1px solid black; 
+    background-color: darkblue;
+}
+ul#navigation>li { 
+    color: yellow;  
+    list-style-type: none;
+    display: inline-block;
+    height: 1em;
+    width:20%;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+   
+    
+}
+
+
+
+
