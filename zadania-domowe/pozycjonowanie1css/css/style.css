@@ -3,9 +3,9 @@ div#obrazek{
 }
 
 div.square {
-  border: solid 50px ;
-  width: 0px;
-  height: 0px;
+  border: solid 50%
+  width: 50x;
+  height: 50;
   position:relative;
   display: inline-block;
 }
