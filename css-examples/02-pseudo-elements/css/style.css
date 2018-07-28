@@ -1,0 +1,10 @@
+.comment{
+    font-size:36px;
+    color:brown;
+}
+
+.comment::before, .comment::after{
+    content: '***';
+    color:gold;
+    background-color:blue;
+}

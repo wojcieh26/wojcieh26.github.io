@@ -1,0 +1,56 @@
+p:nth-child(1),
+span:nth-child(3){
+    background-color:skyblue;
+height: 200px;
+}
+
+
+p:nth-child(2),
+span:nth-child(4){
+    background-color:indianred;
+}
+.block{
+    display:block;
+}
+
+.inline{
+    display: inline;
+}
+ul{
+    font-size:0;
+}
+li{
+    display:inline-block;
+    height: 50px;
+    width:50px;
+    background-color: beige;
+    border:1px dotted red;
+    font-size:initial;
+    text-align:center;
+        line-height:85px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

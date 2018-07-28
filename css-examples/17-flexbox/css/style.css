@@ -1,0 +1,38 @@
+.flex-item {
+    color:black;
+    background-color: orange;
+    border:1px solid blue;
+    padding:10px;
+    margin: 3px;
+    flex-basis: 40%;
+}
+
+.flex-item:nth-child(even){
+    background-color: lightgray;
+/*    max-height: 150px;*/
+}
+        
+.flex-item:nth-child(1){
+/*align-self: center;     */
+    order: 2;
+    flex-shrink: 1;
+}
+.flex-item:nth-child(2){
+/*align-self: center;     */
+    order: 1;
+    flex-shrink: 2;
+}
+
+.container{
+    border:1px dashed red;
+    display: flex;
+    
+/*    flex-wrap: wrap;*/
+    height:700px;
+/*
+    align-content: center;
+    justify-content: center;
+*/
+    align-items: flex-start;
+    
+}

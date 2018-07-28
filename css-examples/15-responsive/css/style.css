@@ -1,0 +1,45 @@
+body{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+p:nth-child(odd){
+    background-color: gray;
+}
+p:nth-child(even){
+    background-color: pink;
+}
+/*
+p{
+    width: 25%;
+}
+@media all and(max-width:992px){
+    p{
+        width:50%;
+    }
+}
+
+@media all and (max-width: 768px) {
+    p {
+        width:100%;
+    }
+}
+*/
+/*podejscie mobile first*/
+@media(min-width: 768px){
+    p{
+    width:50%;
+    }}
+@media(min-width: 992px){p{
+    width:25%;
+    }}
+
+@media(min-width: 768px) and (max-width: 992px){
+    p {
+        color: #fff;
+    }
+}
+@media print {
+    color: green;
+}

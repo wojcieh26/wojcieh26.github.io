@@ -1,0 +1,28 @@
+.page-link{
+    color:red;
+}
+.page-link:hover{
+    color:green;
+    font-size:36px;
+    text-decoration:none;
+}
+
+input:hover{
+    border:3px solid red;
+}
+input:focus {
+    border: 5px solid green;
+}
+
+.item:first-child {
+    background-color:yellow;
+}
+
+.item:nth-child(3n) {
+    background-color:grey;
+}
+
+
+.item:last-child {
+    background-color:green;
+}
