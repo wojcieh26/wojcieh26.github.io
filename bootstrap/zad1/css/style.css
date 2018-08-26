@@ -1,0 +1,45 @@
+.green {
+    height: 100px;
+}
+
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.yellow{
+    background-color: yellow;
+    height: 100px;
+    margin: 10px;
+}
+
+
+.btn-pink{
+    background-color: #ffb6c3;
+    
+}
+
+.btn-pink:hover{
+    background-color: #fda5b5;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.prawo{
+    margin-left: auto;
+}
+
+.carousel-item img {
+    height: 400px;
+    object-fit: cover;
+}
+
+
+
+
