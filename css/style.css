@@ -98,6 +98,10 @@ body {
     background-color: rgba(14, 214, 214, 0.5);
 }
 
+#portfolio {
+    color: yellow;
+    flex-direction: column;
+}
 
 /************CONTACT*************/
 
