@@ -189,4 +189,7 @@ textarea {
     #main-nav {
     background-color: rgba(14, 214, 214, 0.5);
 }
+    .navbar-light .navbar-nav .nav-link {
+        color:white;
+    }
 }
