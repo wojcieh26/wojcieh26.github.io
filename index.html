@@ -1,47 +1,217 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title>wojcieh26</title>
+    <title>Wojciech's Site</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-------------------       google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700|Roboto+Slab:400,700&amp;subset=latin-ext" rel="stylesheet">
+    <!-------------------       awesome fonts-->
+    <link rel="stylesheet" href="fontawesome-free-5.2.0-web/css/all.min.css">
+    <!-------------------       bootstrap-->
+    <link rel="stylesheet" href="bs/css/bootstrap.min.css">
+    <!-------------------       css-->
     <link rel="stylesheet" href="css/style.css">
+    <!------------------        rwd-->
+    <!--<link rel="stylesheet" href="css/responsive.css">-->
+
 </head>
+
 <body>
-  <nav class="navigation">
-              <ul id="navigation">
-                  <li><a href="about-me"></a>About me</li>
-                  <li><a href="#links"></a>Links</li>
-                  <li><a href="#portfolio"></a>Portfolio</li>
-                  <li><a href="#kontakt"></a>Contact</li>
-              </ul>
-          </nav>
-     <main>
-    
-          
-    
-    <article id="about-me">
-            <h1>wojcieh26</h1>
-            <p>A man with specific sense of humor. Junior junior frond-end developer.</p>
-                
-    </article>   
-    
-    
-    </main>  
-    <aside>
-     <p class="ads">place for ads</p>
-                
-    </aside>
-    <footer>
-        <h2 id="kontakt">Kontakt</h2>
-           
-            <ul>
-                <li id="email">Email</li>
-                <li id="gg">gg</li>
-                <li id="tel">tel</li>
+   
+   
+<!--**********************************************-->
+<!--*****************  NAVIGATION  ***************-->
+<!--**********************************************-->
+   
+   
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light " id="main-nav">
+        <a class="navbar-brand " href="#main-nav">Wojciech's Site</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto text-uppercase">
+                <li class="nav-item">
+                    <a class="nav-link" href="#about-me">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#skills">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#portfolio">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
             </ul>
-          
+
+        </div>
+    </nav>
+    <main>
+    
+    
+<!--**********************************************-->
+<!--*******************  HEADER  *****************-->
+<!--**********************************************-->
+
+       
+        <header class="header flex hor-center">
+            <h1 class="header-text text-cursive"><em>Wojciech</em></h1>
+            <h2 class="header-text text-uppercase font-weight-bold">Junior Front End Developer</h2>
+        </header>
+        <aside id="parallax-first" class="parallax"></aside>
+
+        <article id="about-me" class="container">
+            <div class="width-50 ">
+                <h1>About me</h1>
+                <p>A man with specific sense of humor.   <br>
+                    Junior junior frond-end developer.   <br>
+                    He knows GIT, HTML5, CSS3, SASS,     <br>
+                    Responsive Web Design, Bootstrap,    <br>
+                    JavaScript, jQuery, Ajax             <br>
+                    and basics of React.</p>
+                    <p>
+                        He is also creative and likes colors. <br>
+                        Literally as many as possible.
+                    </p>
+            </div>
+        </article>
+        <aside id="parallax-second" class="parallax"></aside>
+        
+        
+<!--**********************************************-->
+<!--********************  SKILLS  ****************-->
+<!--**********************************************-->
+       
+       
+        <section id="skills" class="skills">
+            <h2>My SKills</h2>
+
+            <div class="container container-skills">
+                <figure class="skill-item">
+                    <i class="fab fa-html5"></i>
+                    <figcaption>HTML5</figcaption>
+                </figure>
+                <figure class="skill-item">
+                    <i class="fab fa-css3-alt"></i>
+                    <figcaption>CSS3</figcaption>
+                </figure>
+                <figure class="skill-item">
+                    <i class="fab fa-js"></i>
+                    <figcaption>JS</figcaption>
+                </figure>
+                <figure class="skill-item">
+                    <i class="fab fa-git"></i>
+                    <figcaption>GIT</figcaption>
+                </figure>
+                
+            </div>
+        </section>
+
+        <aside id="parallax-third" class="parallax"></aside>
+
+
+<!--**********************************************-->
+<!--****************** PORTFOLIO  ****************-->
+<!--**********************************************-->
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+<!--**********************************************-->
+<!--*******************  CONTACT  ****************-->
+<!--**********************************************-->
+   
+   
+   <section id="contact">
+        <header>
+            <h2>Contact me</h2>
+            <p>If you have any questions, just ask</p>
+        </header>
+
+        <div class="container">
+
+            <form action="https://formspree.io/wojciech2694@gmail.com"
+      method="POST" class="row">
+                <div class="col-md-6 flexy">
+                    <input type="text" placeholder="YOUR NAME" class="for-control">
+                    <input type="text" placeholder="YOUR MAIL" class="for-control">
+                    <input type="text" placeholder="YOUR PHONE" class="for-control">
+                </div>
+                <div class="col-md-6">
+                    <!--                                <input type="textarea" class="form-control" id="" cols="30" rows="30" placeholder="YOUR MESSAGE">-->
+                    <textarea name="" id="" cols="30" rows="10" class="form-control"></textarea>
+                </div>
+                <div class="col-md-12">
+                    <input class="btn btn-aqua" type="submit" value="SEND">
+                </div>
+
+            </form>
+
+        </div>
+    </section>
+   
+   
+   
+   
+   
+   
+    </main>
+
+
+<!--**********************************************-->
+<!--********************  FOOTER  ****************-->
+<!--**********************************************-->
+   
+   
+    <footer id="footer" class="container width-100">
+       
+        
+
+        <p class="col-md-6 lh">Copyright<span>©</span> Wojciech Wąsikiewicz</p>
+        
+        <div class="col-md-6 lh">
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="">Privacy Policy</a></li>
+                <li class="list-inline-item"><a href="https://pl.lipsum.com/">Terms of Lorem</a></li>
+            </ul>
+        </div>
+
+
     </footer>
-    
-    
-    
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
+    <script src="bs/js/bootstrap.min.js"></script>
+
+    <script src="js/main.js"></script>
 </body>
+
 </html>

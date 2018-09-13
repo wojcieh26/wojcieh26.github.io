@@ -1,28 +1,162 @@
-
+* {
+    box-sizing: border-box;
+    text-align: center;
+}
 
 
 body {
-    background-color: lightskyblue;
+    margin:0;
+    width: 100%;
+	background: linear-gradient(to bottom, violet,red,orange,yellow,green,blue,indigo,violet); 
+/*    height: 260vh;*/
 }
-ul#navigation{
-    width:100%;
+
+.container {
+	display: flex;
+    max-width: 1234px;
+}
+
+.header {
+    margin: 30px 0 30px 0;
+}
+
+#about-me {
+    line-height: 50px;
+}
+
+#about-me h1,
+.skills {
+    margin-top: 15px;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+#about-me p{
+    font-size: 1.3em;
+}
+
+.skill-item figcaption {
+    font-size: 1.4em;
+}
+
+.parallax {
+	height: 300px;
+	background-color: red;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#parallax-first {
+	background-image: url(../img/niebo.JPG);
+}
+
+#parallax-second {
+	background-image: url(../img/water-clouds.jpg);
+}
+
+#parallax-third {
+    background-image: url(../img/mountains.jpg)
+}
+
+.width-50 {
+    flex-basis: 50%;    
+}
+
+#about-me.container{
+	justify-content: center;
+	align-content: space-around;
+}
+
+.skills {
+	text-align: center;
+}
+
+.skills h2 {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.skills .container-skills {
+	justify-content: center;
+	align-content: space-around;
+}
+
+.skills .skill-item {
+	flex-basis: 20%;
+}
+
+.skills .skill-item i {
+	font-size: 4em;
+}
+
+.skills .skill-item figcaption {
+	margin-top: 15px;
+}
+
+
+#main-nav.scrolled {
+    background-color: rgba(14, 214, 214, 0.5);
+}
+
+
+/************CONTACT*************/
+
+#contact {
     text-align: center;
-    border: 1px solid black; 
-    background-color: darkblue;
+    color: white;
+    padding: 50px 0 50px 0;
+    height: 450px;
 }
-ul#navigation>li { 
-    color: yellow;  
-    list-style-type: none;
-    display: inline-block;
-    height: 1em;
-    width:20%;
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-   
-    
+
+#contact .flexy {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 
+.btn-aqua {
+    background-color: #0ed8d6;
+    border: 1px solid #0ed8d6;
+    transition: all 0.4s;
+    color: #fff;
+    text-transform: uppercase;
+}
 
+.btn-aqua:hover {
+    color: #0ed8d6;
+    background-color: #fff;
+    border: 1px solid #fff;
+}
 
+#contact .btn-aqua {
+    margin-top: 10px;
+}
+
+#contact textarea {
+    height: 200px;
+}
+
+.row {
+    width: 100%;
+}
+
+footer {
+	height: 30px;
+	background-color: orchid;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+
+textarea {
+   resize: none;
+}
+
+#footer span{
+    font-size: 0.7em;
+}
+
+.width-100{
+    max-width:100%;
+}
