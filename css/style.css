@@ -11,6 +11,10 @@ body {
 /*    height: 260vh;*/
 }
 
+.navbar-light .navbar-nav a.nav-link {
+    color: white;
+}
+
 .container {
 	display: flex;
     max-width: 1234px;
@@ -56,6 +60,10 @@ body {
 
 #parallax-third {
     background-image: url(../img/mountains.jpg)
+}
+
+#parallax-fourth {
+    background-image: url(../img/blue-sky.jpg)
 }
 
 .width-50 {
@@ -189,4 +197,20 @@ textarea {
     .navbar-light .navbar-nav .nav-link {
         color:white;
     }
+}
+
+@media (max-width: 767px) { 
+
+    #contact{
+        height: 540px;
+    }
+
+}
+
+@media (max-width: 566px) { 
+
+    footer{
+        height: 55px;
+    }
+
 }
